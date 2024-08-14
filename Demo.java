@@ -8,6 +8,7 @@ class Demo {
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             num = Integer.parseInt(br.readLine());
             System.out.println("Number: " + num);
+            System.out.println("This simply demo file");
         }
 
     }
